@@ -10,3 +10,6 @@ echo 'Installing zsh...'
 
 echo 'Installing xlaunch configurations...'
 ./xlaunch-installation.sh
+
+echo 'Installing nvm and node...'
+./nvm-installation.sh
