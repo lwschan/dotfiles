@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo '[*] Removing default configurations ...'
-rm ~/.zshrc
+rm ~/.gitconfig ~/.zshrc 
 
 echo '[*] Stowing/Creating simlinks for aliases, git, htop, zsh, neovim & zprofile ...'
-stow -vSt ~ zsh
+stow -vSt ~ git zsh
