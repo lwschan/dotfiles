@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chmod +x ./*.sh
+chmod +x ./installation/*.sh
 
 echo 'Installing build essentials...'
 ./installation/build-tools-installation.sh
