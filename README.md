@@ -1,7 +1,7 @@
 # dotfiles
 
 To use the installation directory:
-1. `cd` to the installation directory
+1. `cd` to the dotfiles directory
 2. Make the script executable `chmod +x install-all.sh`
 3. `. ./install-all.sh`
 
