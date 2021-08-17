@@ -13,3 +13,6 @@ echo 'Installing nvm and node...'
 
 echo 'Installing kubectl...'
 ./installation/kubectl-installation.sh
+
+echo 'Installing azure cli...'
+./installation/azure-cli-installation.sh
