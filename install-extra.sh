@@ -10,3 +10,6 @@ echo 'Installing xlaunch configurations...'
 
 echo 'Installing nvm and node...'
 ./installation/nvm-installation.sh
+
+echo 'Installing kubectl...'
+./installation/kubectl-installation.sh
