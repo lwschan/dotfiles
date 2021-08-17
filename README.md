@@ -2,7 +2,7 @@
 
 To install the dependencies:
 1. `cd` to the dotfiles directory
-2. Make the script executable `chmod +x *.sh`
+2. Make the scripts executable `chmod +x *.sh`
 3. `. ./install-essentials.sh`
 4. `. ./install-extra.sh`
 
