@@ -2,6 +2,7 @@
 alias zshconfig='vim ~/.zshrc'
 alias ohmyzsh='vim ~/.oh-my-zsh'
 alias dotfiles='cd ~/.dotfiles'
+alias aliasconfig='vim ~/.aliases'
 
 # Aliases for development projects
 alias proj='cd ~/projects'
