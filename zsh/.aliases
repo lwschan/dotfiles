@@ -3,7 +3,7 @@ alias zshconfig='vim ~/.zshrc'
 alias ohmyzsh='vim ~/.oh-my-zsh'
 alias dotfiles='cd ~/.dotfiles'
 alias aliasconfig='vim ~/.aliases'
-alias dotfilesIgnoreFileModeChange='dotfiles && git config core.filemode false'
+alias dotfilesignorefilemodechange='dotfiles && git config core.filemode false'
 
 # Aliases for development projects
 alias proj='cd ~/projects'
