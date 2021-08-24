@@ -13,3 +13,9 @@ To stow the dotfiles:
 2. `cd` to the dotfiles directory
 3. Make the script executable `chmod +x stow-wsl.sh`
 4. Run the bash script that stows the configurations `. ./stow-wsl.sh`
+
+Windows Terminal changes:
+
+1. Change the starting directory to home `\\wsl$\Ubuntu\home\lewis`
+2. Change colour scheme to One Half Dark
+3. Change font face to Roboto Mono
