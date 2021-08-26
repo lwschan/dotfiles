@@ -16,3 +16,6 @@ echo 'Installing kubectl...'
 
 echo 'Installing azure cli...'
 ./installation/azure-cli-installation.sh
+
+echo 'Installing k9s...'
+./installation/k9s-installation.sh
