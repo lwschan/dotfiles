@@ -101,3 +101,11 @@ source ~/.aliases
 
 # Load Kubectl auto completion
 [[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
+
+# K9S
+export TERM=xterm-256color
+export PATH="/home/lewis/.local/bin:$PATH"
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
