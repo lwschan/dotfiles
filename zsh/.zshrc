@@ -8,7 +8,12 @@ export ZSH="/home/lewis/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="geometry/geometry"
+ZSH_THEME="typewritten/typewritten"
+
+# typewritten customization
+export TYPEWRITTEN_PROMPT_LAYOUT="singleline"
+export TYPEWRITTEN_RELATIVE_PATH="adaptive"
+export TYPEWRITTEN_COLOR_MAPPINGS="primary:#9580FF;secondary:#8AFF80;accent:#FFFF80;info_negative:#FF80BF;info_positive:#8AFF80;info_neutral_1:#FF9580;info_neutral_2:#FFFF80;info_special:#80FFEA"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
