@@ -16,5 +16,5 @@ alias deletebranch='git fetch --prune && git branch -r | awk "{print \$1}" | egr
 
 # Aliases for installation
 alias nodeltsinstall='nvm install --lts'
-alias nodelstupdate='nvm install --lts --reinstall-packages-from=$(node -v)'
+alias nodeltsupdate='nvm install --lts --reinstall-packages-from=$(node -v)'
 alias yarninstall='npm install -g yarn@latest'
