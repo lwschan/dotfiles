@@ -3,6 +3,7 @@
 	email = johndoe@foobar.com
 [credential]
 	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
-	useHttpPath = true
 [alias]
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[credential "https://dev.azure.com"]
+	useHttpPath = true
