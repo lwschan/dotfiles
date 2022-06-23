@@ -1,7 +1,7 @@
 [user]
 	name = Lewis Chan
 	email = 8966669+lwschan@users.noreply.github.com
-	signingkey = 992F9FD66943CF61
+	signingkey = 1B8577F45303BA1C
 [credential]
 	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager-core.exe
 [alias]
