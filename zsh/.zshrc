@@ -113,3 +113,7 @@ export PATH="/home/lewis/.local/bin:$PATH"
 
 # GitHub commit signing
 export GPG_TTY=$(tty)
+
+# Set locales
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
