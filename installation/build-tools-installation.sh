@@ -12,3 +12,6 @@ sudo apt install libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4 li
 sudo apt-add-repository ppa:git-core/ppa
 sudo apt update
 sudo apt install git -y
+
+# install ssh related packages
+sudo apt install keychain -y

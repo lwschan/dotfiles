@@ -117,3 +117,7 @@ export GPG_TTY=$(tty)
 # Set locales
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# For Loading the SSH key
+/usr/bin/keychain -q --nogui $HOME/.ssh/github_id_ed25519
+source $HOME/.keychain/$HOST-sh
