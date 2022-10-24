@@ -93,6 +93,9 @@ source $ZSH/oh-my-zsh.sh
 # Preferred editor for local and remote sessions
 export EDITOR='vim'
 
+# Set browser to Chrome on Windows
+export BROWSER="/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
