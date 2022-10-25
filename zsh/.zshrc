@@ -124,3 +124,17 @@ export LANG=en_US.UTF-8
 # For Loading the SSH key
 /usr/bin/keychain -q --nogui $HOME/.ssh/github_id_ed25519
 source $HOME/.keychain/$HOST-sh
+
+# For GCloud kubectl
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+
+# For Terraform
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/bin/terraform terraform
+
+# For tfenv
+export PATH="$HOME/.tfenv/bin:$PATH"
+
+# For Ctrl + Backspace in Windows Terminal
+bindkey '\C-H' backward-kill-word
+
