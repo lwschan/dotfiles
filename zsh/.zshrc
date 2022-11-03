@@ -137,4 +137,3 @@ export PATH="$HOME/.tfenv/bin:$PATH"
 
 # For Ctrl + Backspace in Windows Terminal
 bindkey '\C-H' backward-kill-word
-
