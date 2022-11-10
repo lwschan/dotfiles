@@ -1,0 +1,20 @@
+# Aliases for configuration
+alias zshconfig='vim ~/.zshrc'
+alias ohmyzsh='vim ~/.oh-my-zsh'
+alias dotfiles='cd ~/.dotfiles'
+alias aliasconfig='vim ~/.aliases'
+alias dotfilesignorefilemodechange='dotfiles && git config core.filemode false'
+
+# Aliases for development projects
+alias proj='cd ~/projects'
+alias lch='cd ~/projects/lewischan.dev'
+alias frontend='cd ~/projects/TimeLog.Frontend'
+alias wpb='cd ~/projects/whatsplayingbot'
+
+# Aliases for Git
+alias deletebranch='git fetch --prune && git branch -r | awk "{print \$1}" | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk "{print \$1}" | xargs git branch -D'
+
+# Aliases for installation
+alias nodeltsinstall='nvm install --lts'
+alias nodeltsupdate='nvm install --lts --reinstall-packages-from=$(node -v)'
+alias yarninstall='npm install -g yarn@latest'
