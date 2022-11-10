@@ -13,3 +13,6 @@
 [submodule "zsh-themes/typewritten"]
 	path = zsh-themes/typewritten
 	url = git@github.com:reobin/typewritten.git
+[submodule "utilities/jenv"]
+	path = utilities/jenv
+	url = git@github.com:jenv/jenv.git

@@ -22,3 +22,8 @@ stow --verbose --target=$HOME/.oh-my-zsh/custom/plugins --dir=zsh-plugins .
 mkdir $HOME/.tfenv
 echo 'trust-tfenv: yes' > utilities/tfenv/use-gpgv
 stow --verbose --target=$HOME/.tfenv --dir=utilities tfenv
+
+# Stow jenv
+mkdir $HOME/.jenv
+stow --verbose --target=$HOME/.jenv --dir=utilities jenv
+jenv enable-plugin export
