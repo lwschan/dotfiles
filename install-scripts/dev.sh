@@ -14,3 +14,6 @@ sudo apt -y install git
 
 # install ssh related packages
 sudo apt -y install keychain
+
+# install zip and unzip packages
+sudo apt-get install zip unzip
