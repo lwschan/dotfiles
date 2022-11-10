@@ -62,7 +62,7 @@ Dotfiles for my WSL, Ubuntu.
    . ./stow.sh
    ```
 
-Windows Terminal changes:
+## Windows Terminal changes:
 
 1. Change the starting directory to home `\\wsl$\Ubuntu\home\{linux_username}`
 2. Change colour scheme to One Half Dark
