@@ -67,3 +67,12 @@ Dotfiles for my WSL, Ubuntu.
 1. Change the starting directory to home `\\wsl$\Ubuntu\home\{linux_username}`
 2. Change colour scheme to One Half Dark
 3. Change font face to Roboto Mono
+
+## Cursor Misalignment
+
+If you encounter a cursor position misalignment, generate the locale again using the following commands.
+
+```bash
+sudo locale-gen "en_US.UTF-8"
+sudo dpkg-reconfigure locales
+```
