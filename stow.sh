@@ -27,3 +27,7 @@ stow --verbose --target=$HOME/.tfenv --dir=utilities tfenv
 mkdir $HOME/.jenv
 stow --verbose --target=$HOME/.jenv --dir=utilities jenv
 jenv enable-plugin export
+
+# Enable systemd
+sudo bash -c 'echo "[boot]" >> /etc/wsl.conf'
+sudo bash -c 'echo "systemd=true" >> /etc/wsl.conf'
