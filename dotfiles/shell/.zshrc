@@ -127,5 +127,8 @@ export PATH="$HOME/.tfenv/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
+# For Go
+export PATH=$PATH:/usr/local/go/bin
+
 # For Ctrl + Backspace in Windows Terminal
 bindkey '\C-H' backward-kill-word
