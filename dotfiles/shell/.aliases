@@ -8,7 +8,6 @@ alias dotfilesignorefilemodechange='dotfiles && git config core.filemode false'
 # Aliases for development projects
 alias proj='cd ~/Projects'
 alias lch='cd ~/Projects/lewischan.dev'
-alias frontend='cd ~/Projects/TimeLog.Frontend'
 alias wpb='cd ~/Projects/whatsplayingbot'
 
 # Aliases for Git
