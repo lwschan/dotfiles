@@ -8,6 +8,8 @@
 
 . ./install-scripts/node.sh
 
+. ./install-scripts/redis.sh
+
 . ./install-scripts/terraform.sh
 
 . ./install-scripts/vim.sh
