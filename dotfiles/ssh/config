@@ -1,0 +1,14 @@
+Host *
+    IgnoreUnknown AddKeysToAgent,UseKeychain
+    AddKeysToAgent yes
+    UseKeychain yes
+
+Host github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_ed25519
+
+Host labmaster
+    Hostname labmaster.local
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_ed25519_lab
