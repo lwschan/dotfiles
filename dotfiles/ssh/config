@@ -12,3 +12,8 @@ Host labmaster
     Hostname labmaster.local
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_ed25519_lab
+
+Host labworker1
+    Hostname labworker1.local
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_ed25519_lab
