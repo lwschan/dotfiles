@@ -8,12 +8,14 @@ Host github.com
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_ed25519
 
-Host labmaster
-    Hostname labmaster.local
+Host homelab1
+    User homelab1
+    Hostname 10.0.20.50
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_ed25519_lab
 
-Host labworker1
-    Hostname labworker1.local
+Host homelab2
+    User homelab2
+    Hostname 10.0.20.51
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_ed25519_lab
