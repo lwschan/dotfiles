@@ -132,3 +132,6 @@ export PATH=$PATH:/usr/local/go/bin
 
 # For Ctrl + Backspace in Windows Terminal
 bindkey '\C-H' backward-kill-word
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
