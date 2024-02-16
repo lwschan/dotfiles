@@ -19,3 +19,9 @@ Host homelab2
     Hostname 10.0.20.51
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_ed25519_lab
+
+Host homelab3
+    User homelab3
+    Hostname 10.0.20.52
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_ed25519_lab
