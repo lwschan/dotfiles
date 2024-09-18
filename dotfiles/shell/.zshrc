@@ -135,3 +135,6 @@ bindkey '\C-H' backward-kill-word
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+# WSLg scaling
+export GDK_DPI_SCALE=1.5

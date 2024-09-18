@@ -6,11 +6,9 @@
 	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
 [alias]
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-[gpg "ssh"]
-	allowedSignersFile = ~/.ssh/allowed_signers
 [gpg]
 	format = ssh
 [gpg "ssh"]
-	allowedSignersFile = /home/lewis/.ssh/allowed_signers
+	allowedSignersFile = ~/.ssh/allows_signers
 [commit]
 	gpgsign = true
