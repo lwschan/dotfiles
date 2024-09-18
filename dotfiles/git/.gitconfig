@@ -1,13 +1,11 @@
 [user]
 	name = Lewis Chan
 	email = 8966669+lwschan@users.noreply.github.com
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKUsaAqSEoSnDTm91uU3b8elSat+u42MQmke+movGAkY
+	signingkey = AA0553A375E59E66
 [credential]
 	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
 [alias]
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-[gpg]
-	format = ssh
 [gpg "ssh"]
 	allowedSignersFile = ~/.ssh/allowed_signers
 [commit]

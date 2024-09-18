@@ -103,7 +103,7 @@ source ~/.aliases
 [[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
 
 # GitHub commit signing
-# export GPG_TTY=$(tty)
+export GPG_TTY=$(tty)
 
 # Locales
 export LC_ALL=en_US.UTF-8
