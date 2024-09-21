@@ -124,11 +124,13 @@ export PATH="$HOME/.tfenv/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-# For Go
-export PATH=$PATH:/usr/local/go/bin
+# For IntelliJ IDEA
+export PATH="/snap/bin:$PATH"
 
 # For Ctrl + Backspace in Windows Terminal
 bindkey '\C-H' backward-kill-word
 
-# WSLg scaling
-export GDK_DPI_SCALE=1.5
+# # WSLg scaling
+export GDK_DPI_SCALE=1.25
+export QT_SCALE_FACTOR=1.25
+export GDK_SCALE=1.25
