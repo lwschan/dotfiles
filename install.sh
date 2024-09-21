@@ -2,8 +2,6 @@
 
 . ./install-scripts/dev.sh
 
-. ./install-scripts/google-cloud-cli.sh
-
 . ./install-scripts/kubectl.sh
 
 . ./install-scripts/node.sh

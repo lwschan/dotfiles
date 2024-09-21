@@ -7,12 +7,12 @@
 [submodule "zsh-plugins/zsh-syntax-highlighting"]
 	path = zsh-plugins/zsh-syntax-highlighting
 	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
-[submodule "zsh-themes/geometry"]
-	path = zsh-themes/geometry
-	url = git@github.com:geometry-zsh/geometry.git
 [submodule "zsh-themes/typewritten"]
 	path = zsh-themes/typewritten
 	url = git@github.com:reobin/typewritten.git
 [submodule "utilities/jenv"]
 	path = utilities/jenv
 	url = git@github.com:jenv/jenv.git
+[submodule "zsh-themes/geometry"]
+	path = zsh-themes/geometry
+	url = git@github.com:geometry-zsh/geometry.git
