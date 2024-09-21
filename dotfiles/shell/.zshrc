@@ -131,6 +131,6 @@ export PATH="/snap/bin:$PATH"
 bindkey '\C-H' backward-kill-word
 
 # # WSLg scaling
-export GDK_DPI_SCALE=1.25
-export QT_SCALE_FACTOR=1.25
-export GDK_SCALE=1.25
+export GDK_DPI_SCALE=1
+export QT_SCALE_FACTOR=1
+export GDK_SCALE=1
