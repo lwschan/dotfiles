@@ -113,9 +113,6 @@ export LANG=en_US.UTF-8
 /usr/bin/keychain -q --nogui $HOME/.ssh/id_ed25519
 source $HOME/.keychain/$HOST-sh
 
-# For GCloud kubectl
-export USE_GKE_GCLOUD_AUTH_PLUGIN=True
-
 # For Terraform
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
@@ -132,9 +129,6 @@ export PATH=$PATH:/usr/local/go/bin
 
 # For Ctrl + Backspace in Windows Terminal
 bindkey '\C-H' backward-kill-word
-
-# Generated for envman. Do not edit.
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
 # WSLg scaling
 export GDK_DPI_SCALE=1.5

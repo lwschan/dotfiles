@@ -6,8 +6,8 @@
 
 . ./install-scripts/node.sh
 
-. ./install-scripts/redis.sh
-
 . ./install-scripts/terraform.sh
 
 . ./install-scripts/vim.sh
+
+. ./install-scripts/zulu-jdk.sh
