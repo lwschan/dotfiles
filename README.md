@@ -21,7 +21,7 @@ Dotfiles for my WSL, Ubuntu.
 2. Clone this repository.
 
    ```bash
-   git clone git@github.com:lwschan/dotfiles-linux.git $HOME/.dotfiles
+   git clone git@github.com:lwschan/dotfiles.git $HOME/.dotfiles
    ```
 
 3. Update `./dotfiles/git/.gitconfig` and `./dotfiles/ssh/allowed_signers` with the new SSH key.
